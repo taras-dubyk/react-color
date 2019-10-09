@@ -146,10 +146,10 @@ export const Twitter = ({ onChange, onSwatchHover, hex, colors, width, triangle,
           value={ hex.replace('#', '') }
           onChange={ handleChange }
         />
+        <div style={ styles.clear } />
         <div className="twitter-picker-children">
           {children}
         </div>
-        <div style={ styles.clear } />
       </div>
     </div>
   )
